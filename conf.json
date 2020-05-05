@@ -1,6 +1,6 @@
 {
-	"maxplayers" : 100,
-	"name" : "RAGE:MP Unofficial server", 
+	"maxplayers" : 1000,
+	"name" : "NEWLAND [FREEROAM] DRIFT CARS, RACE, RACING", 
 	"gamemode" : "freeroam", 
 	"stream-distance" : 500.0,
 	"announce" : false,
