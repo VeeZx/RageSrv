@@ -1,0 +1,1 @@
+mp.gui.chat.push('Hello World');

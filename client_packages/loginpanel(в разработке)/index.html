@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Окно авторизации</title>
+    <script src="js/runtime/jquery-3.5.1.js"></script>
+    <script src="js/main.js"></script>
+    <link  rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Вы играете на JetMode</h1>
+    </header>
+
+    <main>
+        
+    <div class="authorization">
+            <!-- Выбор формы/Слайд хедер-->
+        <div class="switch-form">
+                <label class="tab active" title="Вкладка 1">Авторизация</label>
+                <label class="tab" title="Вкладка 2">Регистрация</label>
+                <label class="tab" id="drost"" title="Вкладка 3">Востановление пароля</label>
+            <!-- Форма АВТОРИЗАЦИИ на сервере-->
+            
+            <form class="tab-form active">
+                <input class="input" type="text" placeholder="Ваш логин">
+                <input class="input" type="password" placeholder="Введите пароль">
+                <a href="#" class="button">Войти</a>
+                <!-- Конец авторизации / Далее идет инфо и допы  -->
+                <ul class="social">
+                    <li><a href="#"><i class="fa fa-vk"></i>Группа вконтакте</a></li>
+                </ul>
+                <a href="#drost">Я забыл свой E-mail или пароль</a>
+            </form>
+            <!-- Конец формы АВТОРИЗАЦИИ  -->
+            <!-- Начало формы РЕГИСТРАЦИИ  -->
+            <form class="tab-form">
+                <input class="input" type="email" placeholder="Введите вашу почту">
+                <input class="input" type="text" placeholder="Придумайте себе Имя">
+                <input class="input" type="text" placeholder="Придумайте логин">
+                <input class="input" type="password" placeholder="Придумайте пароль">
+                <a href="#" class="button">Зарегистрироватьсяи</a>
+                <!-- Конец авторизации / Далее идет инфо и допы  -->
+            </form>
+            
+            <!-- Конец формы РЕГИСТРАЦИИ  -->
+            <form class="tab-form ">
+                <input class="input" type="text" placeholder="Введите вашу почту">
+                <input class="input" type="password" placeholder="Введите имя">
+                <a href="#" class="button">Востановить пароль</a>
+                <ul class="social">
+                    <li><a href="#"><i class="fa fa-vk"></i>Группа вконтакте</a></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    </main>
+</body>
+
+<footer>
+    Это футер
+</footer>
+
+</html>

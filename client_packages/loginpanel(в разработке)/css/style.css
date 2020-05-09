@@ -1,0 +1,157 @@
+
+/* -----  google Font  -----*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+
+body {
+    background-image: url(https://www.oboicity.ru/sites/default/files/wallpaper/models/937543.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+
+}
+
+header {
+    margin-top: 30px;
+    position: relative;
+    color: orange;
+}
+
+main{
+    background-size: auto;
+    height: auto;
+}
+
+
+h1 {
+    width: 600px;
+    position: relative;
+    margin: auto;
+    border: 10px double orchid ;
+    border-bottom-left-radius: 100px;
+    text-align: center;
+    border-style: groove;
+}
+
+.authorization { /*--------- весь блок ------- */
+    position: center;
+    border: 4px double red;
+    width: 600px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto;
+    margin-top: 110px;
+    color: red;
+}
+
+.switch-form { /* Кнопки смены формы */
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    width: 570px;
+}
+
+.switch-form a { /* Все теги <a> в форме Switch */
+    text-decoration: none;
+    transition: 0.5s;
+    color: #298cad;
+}
+
+.switch-form a:hover { /* ???????????????????? */
+    color: #36d2ff;
+}
+
+.switch-form ul { /* все теги списка в форме Switch */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.switch-form input { /* Поле для ввода в форме */
+    display: block;
+    width: 100%;
+}
+
+.hide { /* тег скрытие */
+    display: none;
+}
+
+.tab-form { /* Форма для данных */
+    margin-top: 10px;
+    background: #fff;
+    display: none;
+    height: 400px;
+    padding: 30px 20px 20px;
+}
+
+.tab-form.active, /* Форма для данных АКТИВНАЯ */
+#tab-1:checked ~ #form-1,
+#tab-2:checked ~ #form-2 {
+display: block;
+padding: 30px  20px 20px;
+}
+
+label.tab.active { /* Активная кнопка АВТОРИЗАЦИЯ\РЕГИСТРАЦИЯ */
+    background: rgb(204, 35, 35);
+    color: #1b5f75;
+}
+
+label.tab { /* Активная кнопка над формой*/
+    outline: 1px solid orange;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0 0;
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+/* Формы */
+.input {
+    font-size: 16px;
+    border: 2px solid #e9eaea;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    margin-bottom: 22px;
+    color: #1e8da6;
+    outline: none;
+}
+
+::-webkit-input-placeholder {color:#c4c9c9;}/* webkit */
+::-moz-placeholder          {color:#298cad;}/* Firefox 19+ */
+:-moz-placeholder           {color:#298cad;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#298cad;}/* IE */
+
+a.button {
+    background: #298cad;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    line-height: 46px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.social a {
+    outline: 1px solid orange;
+    width: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+.social + a {
+    margin-top: 10px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
